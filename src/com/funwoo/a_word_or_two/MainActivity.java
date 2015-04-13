@@ -49,6 +49,7 @@ import android.text.SpannableString;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
 import android.text.style.ForegroundColorSpan;
+import android.transition.Fade;
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -191,6 +192,7 @@ AMapLocationListener,LocationSource {
 				// TODO Auto-generated method stub
 				if(!isWaiting)
 				{
+					
 					isWaiting = true;
 					String feedbackStr = feedEditText.getText().toString();
 					if(feedbackStr.equals(""))
